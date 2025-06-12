@@ -146,6 +146,7 @@ body {
     background-color: #f0f0f0;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
     border-radius: 10px 0 0 10px;
+    transition: all 0.2s ease-in-out;
 
     .result__images {
         width: 55%;
@@ -166,6 +167,13 @@ body {
             gap: 10px;
             font-size: 0.8rem;
             color: #666;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+                transform: scale(1.05) translateY(-10px);
+                box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+            }
         }
     }
 
@@ -218,6 +226,10 @@ body {
                 color: #333;
             }
         }
+    }
+
+    &:hover {
+        transform: translateY(-6px);
     }
 }
 
