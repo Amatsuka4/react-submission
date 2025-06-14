@@ -205,15 +205,15 @@ body {
   gap: 10px;
   font-size: 0.8rem;
   color: #666;
-  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
 .result__details .result__images .image__container:hover {
-  -webkit-transform: scale(1.05) translateY(-10px);
-          transform: scale(1.05) translateY(-10px);
+  -webkit-transform: scale(1.05) translateY(-8px);
+          transform: scale(1.05) translateY(-8px);
   -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
 }

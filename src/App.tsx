@@ -1,5 +1,5 @@
-import Search from "./Components/Search.tsx";
-import Result from "./Components/Result.tsx";
+import Search from "./pages/Search.tsx";
+import Result from "./pages/Result.tsx";
 import { useEffect, useState, useTransition } from "react";
 import fetchPokemon from "./api/fetchPokemon.ts";
 
